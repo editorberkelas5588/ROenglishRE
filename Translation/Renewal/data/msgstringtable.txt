@@ -90,7 +90,7 @@ Ask %s to join your party#
 Pri:#
 Pub:#
 Click ''Restart'' to go back to your save point or click ''Exit'' to select another character.#
-Please select a Deal Type.#
+Please select a deal type.#
  requests a deal.#
  Party has sent you an invitation. Would you like to join?#
 Invalid Command#
@@ -540,7 +540,7 @@ You paid with the Time Limit for Internet Cafe. Available time is xx hrs xx mins
 You are free for the test of Internet Cafe version .#
 You are free for the Internet Cafe version.#
 You paid on the Time Limit Website.#
-Emoji List#
+Emotion List#
 /emo#
 /!#
 /?#
@@ -608,52 +608,52 @@ N/A#
 N/A#
 Character in the same account already joined.#
 (%d ppl) - over the age 18#
- Provoke initiated.#
- Provoke canceled.#
- Endure initiated.#
- Endure canceled.#
- Improve Concentration initiated.#
- Improve Concentration canceled.#
- Hiding initiated.#
- Hiding canceled.#
- Cloaking initiated.#
- Cloaking canceled.#
- Poison React initiated.#
- Poison React canceled.#
- Movement Speed reduced.#
- Quagmire canceled.#
- Defense increased.#
- Angelus canceled.#
- STR, INT and DEX increased.#
- Blessing canceled.#
- Signum Crusis initiated.#
- Signum Crusis canceled.#
- Slow Poison initiated.#
- Slow Poison canceled.#
- SP Regeneration is increased.#
- Magnificat canceled.#
- LUK increased.#
- Gloria canceled.#
- You will receive double damage from 1 attack.#
- Lex Aeterna canceled.#
- Attack speed increased.#
- Attack speed reduced.#
- You have mounted a Pecopeco.#
- You have dismounted your Pecopeco.#
- You have rented a Falcon.#
- You have released your Falcon.#
- Play Dead initiated.#
- Play Dead canceled.#
- STR increased.#
- Crazy Uproar canceled.#
- Energy Coat initiated.#
- Energy Coat canceled.#
- Armor damaged.#
- Armor repaired.#
- Weapon damaged.#
- Weapon repaired.#
- Invisibility initiated.#
- Invisibility canceled.#
+Provoke initiated.#
+Provoke has ended.#
+Endure initiated.#
+Endure has ended.#
+Improve Concentration initiated.#
+Improve Concentration has ended.#
+Hiding initiated.#
+Hiding has ended.#
+Cloaking initiated.#
+Cloaking has ended.#
+Poison React initiated.#
+Poison React has ended.#
+Movement Speed reduced.#
+Quagmire has ended.#
+Defense increased.#
+Angelus has ended.#
+STR, INT and DEX increased.#
+Blessing has ended.#
+Signum Crusis initiated.#
+Signum Crusis has ended.#
+Slow Poison initiated.#
+Slow Poison has ended.#
+SP Regeneration is increased.#
+Magnificat has ended.#
+LUK increased.#
+Gloria has ended.#
+You will receive double damage from 1 attack.#
+Lex Aeterna has ended.#
+Attack speed increased.#
+Attack speed decreased.#
+You have mounted a Pecopeco.#
+You have dismounted your Pecopeco.#
+You have rented a Falcon.#
+You have released your Falcon.#
+Play Dead initiated.#
+Play Dead has ended.#
+STR increased.#
+Crazy Uproar has ended.#
+Energy Coat initiated.#
+Energy Coat has ended.#
+Armor damaged.#
+Armor repaired.#
+Weapon damaged.#
+Weapon repaired.#
+Invisibility initiated.#
+Invisibility has ended.#
 Sorry. It is delayed due to the process of payment. Please re-connect in a minute.#
 You must unequip ammunition first.#
 Arrow List#
@@ -681,7 +681,7 @@ Your account has play time of %d hour %d minute.#
 Your account is a free account.#
 This account can't connect the Sakray server.#
 Your pet name must be 23 characters or less.#
-You may change your pet's name only once. Your pet's name will be changed to ^0000ff^0000ff %s^000000^000000.  Do you wish to continue?#
+You may change your pet's name only once. Your pet's name will be changed to ^0000ff%s^000000.  Do you wish to continue?#
 /font#
 Your guild lacks the funds to pay for this venture.#
 Your guild zeny limit prevents you from performing this action.#
@@ -1273,20 +1273,20 @@ IP Bonus: EXP/JEXP %d%%, Death Penalty %d%%, Item Drop %d%%#
 Symbols in Character Names are forbidden.#
 Mercenary will follow custom AI.#
 Mercenary will follow basic AI.#
- %s's #
-%s has acquired %s.#
+[%s] - #
+[%s] has acquired [%s].#
 Public Chat#
 Whisper#
 Party Chat#
 Guild Chat#
-Item get/drop#
-Equipment on/off#
-Abnormal status#
-Party member's obtained item#
-Party member's abnormal status#
-Skill failure#
-Party configuration#
-Damaged equipment#
+Item Log#
+Equipment On/Off#
+Status Log#
+Party Member Item Log#
+Party Member Status Log#
+Skill Failure#
+Party Configuration#
+Damaged Equipment#
 Battle Message Window#
 [%s]'s Han Coin: %d Han Coin#
 Public#
@@ -1298,8 +1298,8 @@ Bookmark#
 Previous#
 Next#
 Close#
-%s's equipment has been damaged.#
-%s's %s has been damaged.#
+[%s]'s equipment has been damaged.#
+[%s]'s %s has been damaged.#
 Weapon#
 Armor#
 Insufficient Skill Level for joining a Party#
@@ -2199,9 +2199,9 @@ Navigation#
 Back to Navigation#
 View List#
 Toggle Minimap#
-Read external file path information#
+Import external file#
 Exit#
-Change to basic UI#
+Change to normal UI#
 Change to simple UI#
 Help#
 All#
@@ -2211,9 +2211,9 @@ Mob#
 Enter search string... (Ex: word word ...#
 Scroll#
 Use Scroll?#
-Service#
-Use Kafra Warp?#
-Plane#
+Kafra Teleport Service#
+Use Kafra Teleport Service?#
+Airship#
 Use Airship?#
 >> Failed to read the target information.#
 >> Destination <<#
@@ -2238,26 +2238,26 @@ Goal: (%d, %d)#
 E%2d) %s(%d,%d)=>(%d,%d)#
 E%2d) %s#
 Do you want to cancel navigation?#
-How to Use Navigation#
-------------------- Instruction --------------------#
-1) /Navigation or /navi#
-ex) /navi prontera 100 100 -> /navi 'MAPNAME', 100, 100#
-2) /Navigation2 or /navi2 #
-ex) /navi2 prontera 100 111#
--> MAPNAME location (100 90), Scroll | Zeny | Plane (1: Enable or 0: Disable)#
--> /navi2 goes with the case with location coordinates. They must be no less than 3 characters #
-3) $$all Output all the items (Can take a while...) #
-4) $$lv30 monsters are placed in the output #
-5) $$lv20~30 monsters in that level range are placed in the output #
--------------------  Description  --------------------#
-1) One can search for monsters, npcs, maps, or all at once#
-2) You can press the search button to get results. It will out put the results depending on what rule you choose#
-ex) Drop down box -> Select 'Npc', then type in the box 'Kafra'. Results will now be displayed#
-3) When you select an item from a list, information about it are displayed.#
--> When button is clicked, it will point you towards your destination if available#
-4) Scroll | Zeny | Plane options can be checked to find a faster route#
-5) Guide button is pressed, the result list window displays where routes can change direction#
-6) Using the button below, search results can be found#
+How to use the Navigation#
+-------- Chat Commands --------#
+1: /navigation or /navi#
+ex: /navi 'MAPNAME' 100/100 -> /navi prontera 100/100#
+2: /Navigation2 or /navi2#
+ex: /navi2 'MAPNAME' 100/100 Scroll/Kafra/Airship (1: Enable or 0: Disable)#
+-> /navi2 prontera 100/100 1/1/1#
+-> /navi2 is like /navi, but it allows you to select a route with a fee, like Kafra Teleport.#
+-------- Navigation UI --------#
+ * $$all -> Outputs all the npcs/monsters/maps at once (Can take a while...)#
+ * $$lv30 -> Outputs monsters of level 30#
+ * $$lv20~30 -> Outputs monsters between level 20 and 30#
+1: You can search for monsters, npcs, maps or all at once.#
+2: You can press the 'Search' button to get results. It will output the results based on what you choose.#
+ex: Select 'Npc' in the dropdown box, then type 'Kafra'. Results will now be displayed#
+3: When you select an entry from a list, information about it will be displayed.#
+-> When 'Find' is clicked, it will navigate you towards your destination if available.#
+4: 'Service' can be checked to find a faster route.#
+5: Once the 'Find' button is pressed, the result window will change to minimap display with a marked route.#
+6: Using the button below, search results can be found#
 -> [Results List Window] <-> [View Modes can be switched]#
 Level:%d (Boss)#
 Level:%d (Mob)#
@@ -2291,13 +2291,13 @@ Move %s#
 Move to the Airship Service#
 By Warp#
 End Points: (%d %d)#
-That does not support the navigation area#
-The purpose is unclear#
+That does not support the navigation area.#
+Invalid syntax. Either missing or too many arguments.#
 Does not meet the map requirement#
 Information Failure | Change settings#
 Failed to set info for location!#
-Failed to find a path#
-Failed to find players #
+Failed to find a path.#
+Failed to find players.#
 No Information#
 Map doesn't support directions#
 Please specify target goals.#
@@ -2306,18 +2306,18 @@ Directions were started#
 Is the map that you're looking for mob#
 Map appears on the guide you are looking for#
 Please navigate using the item#
-To find the location, follow the arrows#
-Arrived at the target map#
-Arrived on the map that has the Npc you're looking for. Follow the arrows to go to that NPC.#
-You have arrived at the mob you were looking for#
-You have reached your goal#
+A route was found, please follow the arrows to reach your destination.#
+Arrived at the target map.#
+You have arrived on the map where the Npc you were looking for is. Follow the arrows to go to that NPC.#
+You have arrived on the map where the mob you were looking for has been found.#
+You have reached your destination.#
 Please go to indicated direction.#
 The goal has been reached#
 Navigation >: %s#
 Navigation >: Talk to [%s]#
-Navigation >: Please move to [%s] map#
-Navigation >: Then select [%s]#
-Navigation >: Please move to the Airship#
+Navigation >: Please move to [%s].#
+Navigation >: Then select [%s].#
+Navigation >: Please move to the Airship.#
 Navigation >: Use the Warp Portal to move to the next area.#
 Item: #
 $$#
@@ -2409,13 +2409,13 @@ Ranking Type#
 Currently,Server is full.           ^0000ffPeople Currently Waiting : %d                    Expected Waiting Time : %dSeconds#
 Currently,Server is full.           ^0000ffPeople Currently Waiting : %d                    Expected Waiting Time : %dMinutes %d Seconds#
 CBT is not an invited user#
-------------------- Instruction --------------------#
-1) /Navigation or /navi ex) /navi prontera 100 100 -> /navi 'MAPNAME', 100, 100#
-2) /Navigation2 or /navi2 ex) /navi2 prontera 100 111 -> MAPNAME location (100 90), Scroll | Zeny | Plane (1: Enable or 0: Disable)#
--> /navi2 goes with the case with location coordinates. They must be no less than 3 characters #
-3) $$all Output all the items (Can take a while...) #
-4) $$lv30 monsters are placed in the output #
-5) $$lv20~30 monsters in that level range are placed in the output #
+------------------- Instructions --------------------#
+1) /Navigation or /navi; ex: /navi 'MAPNAME' 100/100 -> /navi prontera 100/100#
+2) /Navigation2 or /navi2; ex: /navi2 'MAPNAME' 100/100 Scroll/Service/Airship (1: Enable or 0: Disable) -> /navi2 prontera 100/100 1/1/1#
+-> /navi2 is like /navi, but it allows you to select a route with a fee, like Kafra Teleport.#
+ * $$all -> Outputs all the npcs/monsters/maps at once (Can take a while...)#
+ * $$lv30 -> Outputs monsters of level 30#
+ * $$lv20~30 -> Outputs monsters between level 20 and 30#
 1 vs 1#
 Costume#
 Suspicious character job info in slot %d. Please contact the customer support. ErrorCode(%d)#
@@ -2794,7 +2794,7 @@ Can't be traded with player#
 Can't be auctioned#
 Can't be put in Guild Storage#
 Can't be sold to NPC#
-Item move restrictions#
+Transfer Restrictions#
 Click here to create a Character#
 Please unequip ammunition first.#
 Unable to enter, due to exceeding number of players.#
@@ -2818,11 +2818,11 @@ Are you sure you want to delete this style information?#
 Slot is full, please delete a character.#
 Item cannot be restored, are you sure want to apply it?#
 The current style is saved.#
-There are plenty of zeny in the bank, Please go to the bank now.#
-moving...#
+You have plenty of Zeny in the bank, please go to the bank now.#
+Moving...#
 You are not allowed to fly over the sovereign airspace of the country.#
 Airship flight is temporarily unavailable due to atmospheric instability caused by magic.#
-Private airship#
+Private Airship#
 Please try again in a moment.#
 Not enough Zeny to use the private airship.#
 Not enough item to use the private airship.#
@@ -2830,12 +2830,12 @@ You don't meet the level to use the private airship.#
 You cannot move to the selected point by the private airship.#
 You cannot use the private airship from your current location.#
 Accessory#
-Second costume#
+Second Costume#
 Wardrobe#
 This hairstyle cannot be dyed.#
-Press an arrow to choose the style you want.#
-Come and see the new styles.\n(Purchased accessories will be sent via RODEX.)#
-Basic style#
+Press the arrows to choose a   new style.#
+You have successfully change your style. (Purchased accessories will be sent via RODEX.)#
+Basic Style#
 You can level up the skill from the base Lv. %d.#
 Special symbol can't be used in name#
 MaxHP is too low to use this skill#
@@ -2976,8 +2976,8 @@ Success#
 Clear#
 With Mr/Miss#
 Are you sure you want to change your Homunculus's name to ^0000ff%s^000000?#
-You can be "called" with various skills (Emergency Call,...). (/call)#
-You cannot be "called" with various skills (Emergency Call,...). (/call)#
+You can be called with various skills (Emergency Call,...). (/call)#
+You cannot be called with various skills (Emergency Call,...). (/call)#
 Display Call messages#
 This character is currently opening a shop and can't be deleted#
 The same vend shop NPC has been set up#
@@ -3188,7 +3188,7 @@ Total fee : #
 Select receiver#
 Select receiving group#
 Change size(F10)#
-Loading mailbox, Please don't delete the^c92114 message^000000~!!#
+Loading mailbox, Please don't delete the ^c92114message^000000~!!#
 NOW LOADING..#
 Title#
 Sender#
@@ -3201,20 +3201,20 @@ No identification number, supplement your registration information#
 Account block#
 System error#
 unknown error found.#
-Navigation guide icon set#
-navigation UI#
-Navigation information#
-Share current location#
+Navigation Icons#
+Navigation Info#
+Warp List#
+Share selected location#
 Search result[0]#
 Search & description#
 Location error#
 Search result[%d]#
-Show navigation icon setting#
+Navigation Icon Setting#
 Path that uses zeny#
 Open navigation window#
 Account is not active#
 Click on the location to share it in a chat room#
-4. Select Service project, Contains use of zeny and airship#
+4. Select 'Service' to make use of Zeny and Airship.#
 5. [<-]ID : navigation mode<->swap search mode#
 Share mode -> use it when searching#
 %lld Base Experience obtained#
@@ -3398,7 +3398,7 @@ There is no block list.#
 Act#
 Rec#
 Pen#
-Quest information#
+Quest List#
 Description#
 Monster#
 Reward#
@@ -3725,47 +3725,47 @@ Ascending#
 Success %d%%#
 Item tags can only tag items you own.#
 ATK and P.ATK has been increased.#
-The Powerful Faith effect has been canceled.#
+Powerful Faith has been canceled.#
 HP and Res has been increased.#
-The Firm Faith effect has been canceled.#
+Firm Faith has been canceled.#
 Attack Speed and Perfect Hit chance has been increased.#
-The Sincere Faith has been canceled.#
+Sincere Faith has been canceled.#
 POW, CRT and CON has been increased.#
-The Benedictum effect has been canceled.#
+Benedictum has been canceled.#
 SPL, WIS and CRT has been increased.#
-Religio effect has been canceled.#
+Religio has been canceled.#
 P.ATK and S.MATK has been increased.#
-The Competentia effect has been canceled.#
+Competentia has been canceled.#
 Critical damage chance has been increased.#
-The Presens Acies effect has been canceled.#
-The effect of ignoring Res been granted.#
-The Argutus Telum effect has been canceled.#
-The effect of ignoring M.Res been granted.#
-The Argutus Vita effect has been canceled.#
+Presens Acies has been canceled.#
+Ignoring RES effect been granted.#
+Argutus Telum has been canceled.#
+Ignoring MRES effect been granted.#
+Argutus Vita has been canceled.#
 Num: %d/%d Weight: %d/%d#
-The Servant Weapon effect has been canceled.#
-The Charging Pierce effect has been canceled.#
-The Vigor effect has been canceled.#
+Servant Weapon has been canceled.#
+Charging Pierce has been canceled.#
+Vigor has been canceled.#
 Attack Power has been increased and Defense decreased.#
-The Attack Stance effect has been canceled.#
+Attack Stance has been canceled.#
 Defense has been increased and Attack Power decreased.#
-The Guard Stance effect has been canceled.#
+Guard Stance has been canceled.#
 Guardian Barrier has been granted.#
-The Guardian Barrier effect has been canceled.#
-The damage taken by the Devotion effect will be decreased.#
-The Rebound Shield effect has been canceled.#
+Guardian Barrier effect has been canceled.#
+Damage taken by the Devotion will be decreased.#
+Rebound Shield has been canceled.#
 Holy elemental magic damage and Shadow/Undead elemental resistance has been increased.#
-The Holy Shield effect has been canceled.#
-Instant resurrection effect was granted.#
-Ultimate Sacrifice effect has been canceled.#
-The effects of certain skills has changed.#
-The Climax effect has been canceled.#
-The effects of certain skills have returned to normal.#
-The Shadow Exceed effect has been canceled.#
-The effect of ignoring Res has been granted.#
-The Potent Venom effect has been canceled.#
-The Shadow Wound status can be inflicted on your enemy with a chance on each physical attacks#
-The Enchanting Shadow effect has been canceled.#
+Holy Shield has been canceled.#
+Instant Resurrection has been granted.#
+Ultimate Sacrifice has been canceled.#
+Climax has changed effects of certain skills.#
+Climax has been canceled.#
+Shadow Exceed has changed effects of certain skills.#
+Shadow Exceed has been canceled.#
+Ignoring RES effect has been granted.#
+Potent Venom has been canceled.#
+Shadow Wound status can now be inflicted on your enemies.#
+Enchanting Shadow has been canceled.#
 Suppression Count On#
 Suppression Count Off#
 The target has reached it's maximum AP.#
@@ -3910,7 +3910,7 @@ Medium#
 Large#
 DEF#
 Youth access is restricted.#
-0Zeny (Dye Removal)#
+0 Zeny (Dye Removal)#
 Select All#
 Easy Quest UI#
 FREE!#

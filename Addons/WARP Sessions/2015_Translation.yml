@@ -1,5 +1,3 @@
-from: "D:/Ragnarok Project/Client/Ragexe/2015/2015-10-29aRagexe.exe"
-to: "D:/Ragnarok Project/ROTP/ROTP 2020-08-19.exe"
 inputs:
     $newCheckAtt:
         data: '53797374656d2f436865636b417474656e64616e63655f454e2e6c756200'
